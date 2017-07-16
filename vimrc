@@ -19,3 +19,4 @@ autocmd BufWritePre * %s/\s\+$//e
 " Display extra whitespace
 set list listchars=tab:»·,trail:·
 
+set mouse=v
