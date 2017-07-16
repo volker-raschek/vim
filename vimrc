@@ -1,5 +1,5 @@
 " Style
-" colorscheme desert
+colorscheme murphy
 syntax on
 set wildmenu
 set autoindent
