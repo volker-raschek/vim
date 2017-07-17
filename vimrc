@@ -19,4 +19,8 @@ autocmd BufWritePre * %s/\s\+$//e
 " Display extra whitespace
 set list listchars=tab:»·,trail:·
 
+" Copy paste about clipboard
 set mouse=v
+
+" Sepcial configurations
+autocmd Filetype make setlocal noexpandtab
