@@ -24,3 +24,7 @@ set mouse=v
 
 " Sepcial configurations
 autocmd Filetype make setlocal noexpandtab
+
+" Autocompletion (bash)
+set wildmode=longest,list,full
+
