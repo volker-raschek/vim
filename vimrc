@@ -1,5 +1,5 @@
 " Style
-colorscheme murphy
+colorscheme elflort
 syntax on
 set wildmenu
 set autoindent
