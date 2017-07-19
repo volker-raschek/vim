@@ -1,5 +1,5 @@
 " Style
-colorscheme elflort
+colorscheme elflord
 syntax on
 set wildmenu
 set autoindent
