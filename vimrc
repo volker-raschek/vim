@@ -6,8 +6,15 @@ autocmd BufWritePre * %s/\s\+$//e                                 " delete depre
 autocmd Filetype make setlocal noexpandtab                        " use tabs in make files instead whitespaces
 autocmd BufNewFile,BufRead rsnapshot.conf setlocal noexpandtab    " use tabs in rsnapshot.conf files instead whitespaces
 
+" Key values
+"  Can do almost everything that set can do, plus more.
+"  It can assign a value to
+let g:solarized_termcolors=256                                    " enable 256bit map for solarized colorschema
+
 " Set options
+"  Only works with options
 set autoindent                                                    " automatically indents text
+set background=dark
 set encoding=utf-8                                                " file encoding
 set expandtab
 set fileformat=unix                                               " use unix fileformat (LCR)
@@ -24,7 +31,7 @@ set wildmenu
 set wildmode=longest,list,full                                    " autocompleteion bash
 
 " Other
-colorscheme elflord                                               " colorschema
+colorscheme solarized                                             " colorschema
 scriptencoding utf-8                                              " script encoding
-syntax on                                                         " enable syntaxhighlighting
+syntax enable                                                     " enable syntaxhighlighting
 
