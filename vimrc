@@ -5,6 +5,7 @@ call pathogen#infect()
 autocmd BufWritePre * %s/\s\+$//e                                 " delete deprecated dots at very end of a line
 autocmd Filetype make setlocal noexpandtab                        " use tabs in make files instead whitespaces
 autocmd BufNewFile,BufRead rsnapshot.conf setlocal noexpandtab    " use tabs in rsnapshot.conf files instead whitespaces
+autocmd vimenter * NERDTree                                       " AutoStart nerdtree
 
 " Key values
 "  Can do almost everything that set can do, plus more.
