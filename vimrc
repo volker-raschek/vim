@@ -11,6 +11,9 @@ autocmd vimenter * NERDTree                                       " AutoStart ne
 "  Can do almost everything that set can do, plus more.
 "  It can assign a value to
 let g:solarized_termcolors=256                                    " enable 256bit map for solarized colorschema
+let NERDTreeAutoDeleteBuffer=1                                    " automatically delete the buffer of the file, if I delete it with NerdTree
+let NERDTreeMinimalUI=1                                           " disable help informations in NerdTree
+let NERDTreeDirArrows=1                                           " display dir arrows in NerdTree
 
 " Set options
 "  Only works with options
