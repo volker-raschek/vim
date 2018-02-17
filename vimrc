@@ -31,7 +31,8 @@ set mouse=v                                                             " suppor
 set nobackup                                                            " no backup files
 set noswapfile                                                          " no swap files
 set nowritebackup                                                       " only in case you don't want a backup file while editing
-set nu                                                                 " show row numbers
+"set rnu                                                                " show row numbers from the position of the cursor
+set nu                                                                  " show row numbers from beginning
 set statusline=%{fugitive#statusline()}                                 " config my own statusline
 set shiftwidth=2
 set smarttab
