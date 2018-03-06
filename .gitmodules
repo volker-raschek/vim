@@ -19,3 +19,6 @@
 [submodule "bundle/nerdtree-git-plugin"]
 	path = bundle/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "bundle/vim-flow"]
+	path = bundle/vim-flow
+	url = git://github.com/flowtype/vim-flow.git
