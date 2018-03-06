@@ -5,7 +5,6 @@ call pathogen#infect()
 autocmd BufWritePre * %s/\s\+$//e                                       " delete deprecated dots at very end of a line
 autocmd Filetype make setlocal noexpandtab                              " use tabs in make files instead whitespaces
 autocmd BufNewFile,BufRead rsnapshot.conf setlocal noexpandtab          " use tabs in rsnapshot.conf files instead whitespaces
-autocmd vimenter * NERDTree                                             " AutoStart nerdtree
 
 " Close NerdTree, if NerdTree is the last open buffer
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -15,9 +14,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "  Can do almost everything that set can do, plus more.
 "  It can assign a value to
 let g:solarized_termcolors=256                                          " enable 256bit map for solarized colorschema
-let NERDTreeAutoDeleteBuffer=1                                          " automatically delete the buffer of the file, if I delete it with NerdTree
-let NERDTreeMinimalUI=1                                                 " disable help informations in NerdTree
-let NERDTreeDirArrows=1                                                 " display dir arrows in NerdTree
 
 " Set options
 "  Only works with options
