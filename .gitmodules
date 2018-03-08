@@ -13,12 +13,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree
-[submodule "bundle/nerdtree-git-plugin"]
-	path = bundle/nerdtree-git-plugin
-	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = git://github.com/flowtype/vim-flow.git
