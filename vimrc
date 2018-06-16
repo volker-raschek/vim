@@ -3,7 +3,9 @@ call pathogen#infect()
 
 " Autocmd
 autocmd BufWritePre * %s/\s\+$//e                                       " delete deprecated dots at very end of a line
-autocmd Filetype make setlocal noexpandtab                              " use tabs in make files instead whitespaces
+autocmd Filetype make       setlocal noexpandtab                        " use tabs in make files instead whitespaces
+autocmd Filetype yaml       setlocal shiftwidth=2 softtabstop=2         " yaml files
+autocmd Filetype javascript setlocal shiftwidth=2 softtabstop=2         " javascript files
 autocmd BufNewFile,BufRead rsnapshot.conf setlocal noexpandtab          " use tabs in rsnapshot.conf files instead whitespaces
 
 " Close NerdTree, if NerdTree is the last open buffer
@@ -21,7 +23,7 @@ set autoindent                                                          " automa
 set background=dark
 set encoding=utf-8                                                      " file encoding
 set expandtab
-set fileformat=unix                                                     " use unix fileformat (LCR)
+set fileformat=unix                                                     " use unix fileformat (LF)
 set list listchars=tab:»·,trail:·                                       " display dots for identicate tabspaces
 set mouse=v                                                             " support mouse in visual mode
 set nobackup                                                            " no backup files
