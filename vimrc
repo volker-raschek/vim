@@ -12,7 +12,7 @@ set smarttab
 set textwidth=72
 
 " Show row numbers
-set rnu
+set nu
 
 " Strip trailing whitespaces
 autocmd BufWritePre * %s/\s\+$//e
