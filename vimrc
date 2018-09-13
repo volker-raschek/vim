@@ -24,7 +24,7 @@ set background=dark
 set encoding=utf-8                                                      " file encoding
 set expandtab
 set fileformat=unix                                                     " use unix fileformat (LF)
-set list listchars=tab:»·,trail:·                                       " display dots for identicate tabspaces
+set list listchars=eol:$,tab:»·,trail:·                                 " display dots for identicate tabspaces
 set mouse=v                                                             " support mouse in visual mode
 set nobackup                                                            " no backup files
 set noswapfile                                                          " no swap files
