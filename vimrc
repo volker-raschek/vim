@@ -18,7 +18,7 @@ set nu
 autocmd BufWritePre * %s/\s\+$//e
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·
+set list listchars=eol:$,tab:»·,trail:·
 
 " Copy paste about clipboard
 set mouse=v
