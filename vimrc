@@ -14,6 +14,9 @@ set smarttab
 " Show row numbers
 set nu
 
+scriptencoding utf-8
+set encoding=utf-8
+
 " Strip trailing whitespaces
 autocmd BufWritePre * %s/\s\+$//e
 
