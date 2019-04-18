@@ -4,6 +4,7 @@
 
 ```bash
 git clone --recurse-submodules git@git.cryptic.systems:volker.raschek/vim.git ~/.vim
+git clone --recurse-submodules https://git.cryptic.systems/volker.raschek/vim.git ~/.vim
 ```
 
 ## Update Repositories
