@@ -43,3 +43,6 @@ colorscheme solarized                                                   " colors
 scriptencoding utf-8                                                    " script encoding
 syntax enable                                                           " enable syntaxhighlighting
 
+
+" Shortcuts
+com! FormatJSON %!python -m json.tool
