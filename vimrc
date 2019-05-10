@@ -33,3 +33,6 @@ autocmd BufNewFile,BufRead rsnapshot.conf setlocal noexpandtab
 " Autocompletion (bash)
 set wildmode=longest,list,full
 
+
+" Shortcuts
+com! FormatJSON %!python -m json.tool
