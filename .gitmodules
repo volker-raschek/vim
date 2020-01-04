@@ -13,3 +13,6 @@
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = git://github.com/flowtype/vim-flow.git
+[submodule "bundle/youcompleteme"]
+	path = bundle/youcompleteme
+	url = https://github.com/ycm-core/YouCompleteMe.git
