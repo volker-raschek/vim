@@ -4,8 +4,9 @@ call pathogen#infect()
 " Autocmd
 autocmd BufWritePre * %s/\s\+$//e                                       " delete deprecated dots at very end of a line
 autocmd Filetype make       setlocal noexpandtab                        " use tabs in make files instead whitespaces
-autocmd Filetype yaml       setlocal shiftwidth=2 softtabstop=2         " yaml files
 autocmd Filetype javascript setlocal shiftwidth=2 softtabstop=2         " javascript files
+autocmd Filetype yaml       setlocal shiftwidth=2 softtabstop=2         " yaml files
+autocmd Filetype xml        setlocal shiftwidth=2 softtabstop=2         " xml files
 autocmd BufNewFile,BufRead rsnapshot.conf setlocal noexpandtab          " use tabs in rsnapshot.conf files instead whitespaces
 
 " Close NerdTree, if NerdTree is the last open buffer
