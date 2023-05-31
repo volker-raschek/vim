@@ -23,3 +23,7 @@ git submodule update --init --recursive
 cd ~/.vim/bundle/youcompleteme
 ./install.py --all
 ```
+
+## Tabularize
+
+`<','>Tabularize/|`
